@@ -3,7 +3,7 @@
 
 ### &nbsp;&nbsp; Assignment 9
 
-##### &nbsp;&nbsp;&nbsp;&nbsp; **Due 3 hours before the start of your Week #10 lesson**
+##### &nbsp;&nbsp;&nbsp;&nbsp; _**Due 3 hours before the start of your Week #10 lesson**_
 
 - Create an engaging and unique composition using arrays
 
