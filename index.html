@@ -4,15 +4,31 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.4/addons/p5.sound.js"></script>
    <script>
 
-    function setup()
+    var sound;
+    
+    function preload() 
     {
-      createCanvas(800, 600);
-      background(200,0,0);
+      sound = loadSound('pop.mp3');
+    }
+    
+    function setup() 
+    {
+       createCanvas(800, 600);
+       textAlign(CENTER);
+       fill(100);
+       noStroke();
+       text("Click to play sound", width/2, height/2);
     }
 
-    function draw()
+    function draw() 
     {
-
+     
+    }
+    
+    function mouseClicked() 
+    { 
+       sound.play();
+       background(random(255), random(255), random(255));
     }
 
    </script>
