@@ -4,7 +4,9 @@
 
 ### Create a creative animation that reacts to sound in real-time… 
 
-#### Requirements
+<br>
+
+#### Requirements:
 
 ##### Composition must continue indefinately without repeating
 
