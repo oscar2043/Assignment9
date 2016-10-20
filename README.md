@@ -8,10 +8,10 @@
 
 #### Requirements:
 
-##### Composition must continue indefinately without repeating
+* Composition must continue indefinately without repeating
 
-##### Must use arrays
+* Must use arrays
 
-##### Submit your work on Github!
+* Submit your work on Github!
 
-##### The rest is up to you…
+* The rest is up to you…
