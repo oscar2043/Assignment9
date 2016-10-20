@@ -1,17 +1,14 @@
-# Assignment #9
 
-# Open-ended reactive composition
+## Introduction to Media Computing
 
-### Create a creative animation that reacts to sound in real-time… 
+### &nbsp;&nbsp; Assignment 9
 
-<br>
+###### &nbsp;&nbsp;&nbsp; Due 3 hours before the start of your Week #10 lesson
 
-#### Requirements:
+- Create an engaging and unique composition using arrays
 
-* Composition must continue indefinately without repeating
+- Your sketch should continue indefinately without repeating
 
-* Must use arrays
+- The rest is up to you... express your creativity... But beware deductions for poor readability; remember to indent your code, include semi-colons at the end of lines, and 'beautify' your sketch before submission.
 
-* Submit your work on Github!
-
-* The rest is up to you…
+- You must submit your work on Github!
