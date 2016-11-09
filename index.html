@@ -1,39 +1,56 @@
- <html>
- <head>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.3/p5.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.4/addons/p5.sound.js"></script>
-   <script>
-    
-    // an example using sound (which is not required for this assignment)
+<html>
 
-    var sound;
-    
-    function preload() 
-    {
-      sound = loadSound('pop.mp3');
-    }
-    
-    function setup() 
-    {
-       createCanvas(800, 600);
-       textAlign(CENTER);
-       fill(100);
-       noStroke();
-       text("Click to play sound", width/2, height/2);
-    }
+<head>
+    <meta charset="UTF-8">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.3/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.16/addons/p5.sound.js"></script>
+    <script>
+        var x = []
+        var y = []
+        var size = []
+        var total = 0
 
-    function draw() 
-    {
-     
-    }
-    
-    function mouseClicked() 
-    { 
-       sound.play();
-       background(random(255), random(255), random(255));
-    }
+        var max = 0;
+        var min = 1000;
+        var sound
 
-   </script>
- </head>
- </html>
+        function preload() {
+            sound = loadSound("123.mp3");
+        }
 
+        function setup() {
+            createCanvas(400, 400);
+            sound.play();
+
+            for (var i = 0; i < 100; i++) {
+
+                x[i] = random(width);
+                y[i] = random(40);
+                size[i] = random(20, 50);
+                if (size[i] > max) {
+                    maxSize = size[i];
+                }
+                if (size[i] < min) {
+                    minSize = size[i];
+                }
+            }
+        }
+
+        function draw() {
+
+            background(230);
+            for (var i = 0; i < 100; i++) {
+
+                x[i] += random(-1, 1);
+                y[i] += random(-1, 1);
+                ellipse(x[i], y[i] , random(50))
+                ellipse(x[i], height - y[i], random(50))
+
+            }
+            fill(random(255));
+            ellipse(200, 200, random(200));
+        }
+    </script>
+</head>
+
+</html>
